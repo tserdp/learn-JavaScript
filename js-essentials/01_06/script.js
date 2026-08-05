@@ -7,6 +7,10 @@
 /* Multi-line comment
 See! this line is also commented out! */
 
+/**
+ * function to update the backpack display and log a message to the console.
+ * @param {string} update - The update message to display.
+ */
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
   main.innerHTML = markup(backpack);
